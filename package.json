@@ -1,0 +1,23 @@
+{
+  "name": "babel7-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel ./src --out-dir ./dist --extensions \".ts,.tsx\"",
+    "typescript": "tsc",
+    "dev": "npm run typescript && npm run babel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "typescript": "^3.0.3"
+  }
+}
